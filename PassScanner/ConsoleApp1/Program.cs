@@ -7,7 +7,6 @@ public class Program
     {
         var visitorsRep = new VisitorsRepository();
         var cs = new CheckService();
-        visitorsRep.VisitorsList();
         cs.Check();
     }
 }

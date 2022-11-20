@@ -40,7 +40,7 @@ namespace ConsoleApp1.Services
             {
                 using (StreamWriter stream = File.AppendText(filePath))
                 {
-                    stream.WriteLine(userInput + " Time " + time.ToString());
+                    stream.WriteLine(userInput + " has visited " + time.ToString());
                     stream.Close();
                 }
             }
